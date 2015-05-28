@@ -1,10 +1,10 @@
 #
 # Basic settings.
 #
-url: http://qckanemoto.github.io # or http://you.github.io
-baseurl: /jekyll-qck-theme # or ""
-title: Your name
-description: Some descriptions of yourself.
+url: http://perrycode.com
+baseurl: ""
+title: PerryCode
+description: The site by a programmer with crash-course projects
 avatar: /assets/img/ogp.png
 
 #
@@ -13,9 +13,11 @@ avatar: /assets/img/ogp.png
 icons:
   rss: true
   email:
-  github: qckanemoto
+  email_obf1: jared@
+  email_obf2: perrycode.com
+  github: sourcerect
   bitbucket:
-  twitter: qckanemoto
+  twitter:
   facebook:
   google_plus:
   tumblr:
@@ -69,7 +71,7 @@ paginate_path: page/:num
 #
 share_buttons: false
 ogp:
-  image_url: http://qckanemoto.github.io/jekyll-qck-theme/assets/img/ogp.png
+  image_url:
   fb:
     admin: # facebook admin id
     app_id: # facebook application id

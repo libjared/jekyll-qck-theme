@@ -16,6 +16,14 @@
 </li>
 {% endif %}
 
+{% if icons.email_obf1 %}
+<li>
+    <span>
+        {{ icons.email_obf1 }}<span style="display:none">DELETE</span>{{ icons.email_obf2 }}
+    </span>
+</li>
+{% endif %}
+
 {% if icons.github %}
 <li>
     <a href="https://github.com/{{ icons.github }}">
